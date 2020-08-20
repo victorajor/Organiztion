@@ -1,0 +1,347 @@
+@font-face{
+	font-family: "raleway";
+	src:url('../fonts/Raleway/Raleway-italic-VariableFont_wght.ttf');
+}
+@font-face{
+	font-family:"kurale";
+	src:url('../fonts/Kurale/Kurale-Regular.ttf');
+}
+@font-face{
+	font-family: abel;
+	src:url('../fonts/Abel/Abel-Regular.ttf');
+}
+@font-face{
+	font-family: "pragati";
+	src:url('../fonts/Pragati_Narrow/PragatiNarrow-Regular.ttf');
+}
+@font-face{
+	font-family: "lobster";
+	src:url('../fonts/lobster/Lobster-Regular.ttf');
+}
+@font-face{
+	font-family:"frank";
+	src:url('../fonts/frank/FrankRuhlLibre-Regular.ttf');
+}
+@font-face{
+	font-family: "acme";
+	src:url('../fonts/Acme/Acme-Regular.ttf');
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+				/*----Aj's Global Classes---*/
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type:none;  
+}
+				/*----End---*/
+.nav{
+	height:80vh;
+	background-image: url('../image/6.jpg');
+	background-size: cover;	
+	background-position: center;
+}
+.head ul{
+	display: flex;
+	justify-content: flex-start;
+}
+.nav-links ul{
+	display: flex;
+	justify-content: space-around;
+}
+/*#3f4954*/
+.head ul li a{
+	font-size: 3rem;
+	color:#fff;
+	font-family: lobster;
+	margin-left:4px; 
+}
+.nav-links ul li a{
+	color:#fff;
+	font-size:1.5rem;
+	font-family: pragati,MonoSpace, Helvetica;
+}
+.nav-links li a:hover{
+	color:#dfe1f5;
+} 
+.one {
+	height:5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color:#cc7872;
+}
+.first-paragraph{
+	font-family:abel;
+	font-size:1.5rem;
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.animation{
+	width:200px;
+	height:300px;
+	/*background-color: red;*/
+	position: relative;
+	top:50px;
+}
+.animated{
+	animation-name: turningBox;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	height: 50px;
+	width:50px;
+	position: absolute;
+	/*background: green;*/
+	right:50%;
+	top:100px;
+	border:none;
+	outline: none;
+}
+.search-box{
+	position: absolute;
+	top:780px;
+	right: 300px;
+	border:2px solid #32344a;
+	height:50px;
+	width:500px;
+	border-radius: 50px;
+	background-color: #fff;
+}
+.subsection-1{
+	background-color: #393d57;
+}
+.input-1{
+	margin-top:5px;
+	margin-left: 60px;
+	border:none;
+	font-family: abel; 
+	font-size: 1.5rem;
+	width: 300px;
+}
+.input-1:focus{
+	outline: none;
+	font-size: 1.5rem;
+	font-family: abel;
+}
+.two{
+	height:5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color:#e08e5e;
+}
+.section-2  h1{
+	font-size: 3rem;
+	font-family: frank;
+	text-align: center;
+}
+.underline{
+	height:4px;
+	width:50px;
+	background: #d6be98;
+	margin:auto;
+	animation: underlined 1s ease-in-out infinite ;
+}
+.boxes{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top:20px;
+	margin-left: 40px;
+	margin-right: 40px;	
+	/*box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+}
+.box-1{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px;
+	margin: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-2{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px; 
+	margin: 10px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.box-3{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px; 
+	margin: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-4{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px; 
+	margin: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-5{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px; 
+	margin: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-6{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px; 
+	margin: 10px; 
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box-7{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px;
+	margin: 10px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+.box-8{
+	height: 300px;
+	/*background-color: red;*/
+	width:250px;
+	margin: 10px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.box{
+	transition: background-color 1.5s ease-in ;
+}
+.box:hover{
+	background-color: #464d4c;
+}
+.img img{
+	height:200px;
+	width:250px;
+}
+.name{
+	text-align:center;
+	margin-top:5px;
+	font-size: 2rem;
+	font-family: frank;
+}
+.section-2 .link a{
+	font-size:2rem;
+	font-family: raleway;
+	/*padding: 8px;*/
+	color:#54ccb2;
+}
+.link a:hover{
+	color:#464d4c;
+}
+.link{
+	margin:auto;	
+	width:200px;
+}
+.three{
+	height:5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color:#cc7872;
+}
+.section-3 h1{
+	text-align:center;
+	font-size: 3rem;
+	font-family: acme;
+}
+.section-3 p{
+	text-align:center;
+	font-size: 1.5rem;
+	font-family: acme;
+}
+.sign-up{
+	width:120px;
+	margin:20px auto;
+	border:2px solid #edbd64;
+	border-radius: 10px;
+	transition: background-color 1s ease-in 0.3s; 
+}
+.sign-up:hover{
+	background-color: #e8ba64;
+}
+.sign-up a{
+	color:#79e09d;
+	font-size:1.5rem;
+	font-family: acme;
+	padding-left:20px;
+}
+.four{
+	height:5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color:#cc7872;
+}
+.footer{
+	background-color: #666c73;
+	height:150px;
+}
+.footer h2{
+	margin-right:auto;
+	padding-top: 50px; 
+	width:100px;
+	font-family: abel;
+	font-size: 2rem;
+}
+.info{
+	margin-left: auto;
+	padding-right:20px;
+	width:200px;
+	/*background-color: red;*/
+	margin-top: -70px;
+}
+.info h3{
+	font-family: abel;
+	font-size: 2rem;
+}
+.info span{
+	font-family: abel;
+	font-size: 1rem;
+	color:#fff;
+}
+@keyframes underlined{
+	from{
+		background-color: #d6be98;
+	}
+	to{
+		background-color: #dd80ed;
+	}
+}
+@keyframes turningBox{
+	0%{
+		border-radius: 0px;
+		background-color: black;
+		border: none;
+		outline: none;	
+	}
+	25%{
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+		background-color: blue;
+		border: none;
+		outline: none;
+	}
+	50%{
+		border-top-right-radius: 75px;
+		border-bottom-right-radius: 75px;
+		background-color: red;
+		border: none;
+		outline: none;
+	}
+	100%{
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		background-color: purple;
+		border: none;
+		outline: none;
+	}
+	
+}
